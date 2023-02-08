@@ -14,3 +14,10 @@ For each of the algorithms _top_, _astar_, and _scip_ and the initializations _1
 ## Subdirectory _SR_
 
 For each of the 10 sampled kernels, the 200 sampled values _b\_1,...,b\_200_ are provided in the file b_KERNEL.csv, the 200 sampled values _&mu;\_1,...,&mu;\_200_ are provided in the file mu_KERNEL.csv, and the 200 sampled values _&sigma;\_1,...,&sigma;\_200_ are provided in the file sigma_KERNEL.csv. 
+
+For each of the algorithms _top_, _astar_, and the two data subsets generated with scip, _scip\_random_ and _scip\_highest_, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
+
+* the regularization parameter &alpha;,
+* the number of (control) discretization intervals N,
+* the trust-region radius &Delta;, and
+* the time the algorithm required to solve the instance to optimality.
