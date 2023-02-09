@@ -4,8 +4,10 @@ This repository contains setup and results data for the computational experiment
 
 ## Subdirectory _SH_
 
-For each of the algorithms _top_, _astar_, and _scip_ and the initializations _1_, _2_, and _3_ analyzed the article, the file results_ALGORITHM_INITIALIZATION.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
+For each of the algorithms _top_, _astar_, and the three data subsets generated with scip, _scip\_random_ and _scip\_highest_ analyzed the article, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
 
+* ID of the instance
+* initialization of SLIP (_1_, _2_, _3_) as described in the manuscript
 * the regularization parameter &alpha;,
 * the number of (control) discretization intervals N,
 * the trust-region radius &Delta;, and
@@ -15,8 +17,10 @@ For each of the algorithms _top_, _astar_, and _scip_ and the initializations _1
 
 For each of the 10 sampled kernels, the 200 sampled values _b\_1,...,b\_200_ are provided in the file b_KERNEL.csv, the 200 sampled values _&mu;\_1,...,&mu;\_200_ are provided in the file mu_KERNEL.csv, and the 200 sampled values _&sigma;\_1,...,&sigma;\_200_ are provided in the file sigma_KERNEL.csv. 
 
-For each of the algorithms _top_, _astar_, and the two data subsets generated with scip, _scip\_random_ and _scip\_highest_, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
+For each of the algorithms _top_, _astar_, and the three data subsets generated with scip, _scip\_random_ and _scip\_highest_, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
 
+* ID of the instance
+* 
 * the regularization parameter &alpha;,
 * the number of (control) discretization intervals N,
 * the trust-region radius &Delta;, and
