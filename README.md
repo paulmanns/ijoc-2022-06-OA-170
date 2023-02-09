@@ -14,7 +14,7 @@ For each of the algorithms _top_, _astar_, and the three data subsets generated 
 * the time the algorithm required to solve the instance to optimality.
 
 For the runs of the overall algorithms _SLIP_, _BFGS_ (+ roundings), and their hybridizations, the running times are reported in the file
-results\_slip\_times.csv and the objective values are reported in the file results\_objective\_values.csv. Each row corresponds to one run and the columns
+results\_slip\_times.csv and the objective values are reported in the file results\_slip\_objective\_values.csv. Each row corresponds to one run and the columns
 contain the following information:
 
 * the number of (control) discretization intervals N,
@@ -30,7 +30,7 @@ contain the following information:
 
 For each of the 10 sampled kernels, the 200 sampled values _b\_1,...,b\_200_ are provided in the file b\_KERNEL.csv, the 200 sampled values _&mu;\_1,...,&mu;\_200_ are provided in the file mu\_KERNEL.csv, and the 200 sampled values _&sigma;\_1,...,&sigma;\_200_ are provided in the file sigma\_KERNEL.csv. 
 
-For each of the algorithms _top_, _astar_, and the three data subsets generated with scip, _scip\_random_ and _scip\_highest_, the file results\_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
+For each of the algorithms _top_, _astar_, and the three data subsets generated with _scip_, _scip\_random_ and _scip\_highest_, the file results\_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
 
 * ID of the instance,
 * the ID of the used kernel (in 1,...,10),
@@ -40,7 +40,7 @@ For each of the algorithms _top_, _astar_, and the three data subsets generated 
 * the time the algorithm required to solve the instance to optimality.
 
 For the runs of the overall algorithms _SLIP_, _BFGS_ (+ roundings), and their hybridizations, the running times are reported in the file
-results\_slip\_times.csv and the objective values are reported in the file results\_objective\_values.csv. Each row corresponds to one run and the columns
+results\_slip\_times.csv and the objective values are reported in the file results\_slip\_objective\_values.csv. Each row corresponds to one run and the columns
 contain the following information:
 
 
