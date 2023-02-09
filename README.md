@@ -13,13 +13,18 @@ For each of the algorithms _top_, _astar_, and the three data subsets generated 
 * the trust-region radius &Delta;, and
 * the time the algorithm required to solve the instance to optimality.
 
-For the runs of the overall algorithms _SLIP_, _BFGS_ (+ roundings), and their hybridizations, the cumulative run times are reported in the file
-results\_slip\_times.csv and the objective values are reported in the file results_objective_values.csv.
+For the runs of the overall algorithms _SLIP_, _BFGS_ (+ roundings), and their hybridizations, the running times are reported in the file
+results\_slip\_times.csv and the objective values are reported in the file results_objective_values.csv. Each row corresponds to one run and the columns
+contain the following information:
 
-
-
-
-
+* the number of (control) discretization intervals N,
+* the regularization parameter &alpha;,
+* the resulting value (running time or objective) for _SLIP_ initialized with initialization _1_,
+* the resulting value (running time or objective) for _SLIP_ initialized with initialization _2_,
+* the resulting value (running time or objective) for _SLIP_ initialized with initialization _3_,
+* the resulting value (running time or objective) for _SLIP_ initialized with the result of _BFGS_ followed by an execution of _SUR_,
+* the resulting value (running time or objective) for _SUR_,
+* the resulting value (running time or objective) for _BFGS_.
 
 ## Subdirectory _SR_
 
