@@ -4,7 +4,7 @@ This repository contains setup and results data for the computational experiment
 
 ## Subdirectory _SH_
 
-For each of the algorithms _top_, _astar_, and the three data subsets generated with scip, _scip\_random_ and _scip\_highest_ analyzed the article, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
+For each of the algorithms _top_, _astar_, and the three data subsets generated with _scip_, _scip\_random_ and _scip\_highest_ analyzed the article, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
 
 * ID of the instance,
 * initialization of SLIP (_1_, _2_, or  _3_),
