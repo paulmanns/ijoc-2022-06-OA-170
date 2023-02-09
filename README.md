@@ -6,8 +6,8 @@ This repository contains setup and results data for the computational experiment
 
 For each of the algorithms _top_, _astar_, and the three data subsets generated with scip, _scip\_random_ and _scip\_highest_ analyzed the article, the file results_ALGORITHM.csv contains the information of one instance (= subproblem solve) in each row. The columns of each row provide the following information:
 
-* ID of the instance
-* initialization of SLIP (_1_, _2_, _3_) as described in the manuscript
+* ID of the instance,
+* initialization of SLIP (_1_, _2_, or  _3_),
 * the regularization parameter &alpha;,
 * the number of (control) discretization intervals N,
 * the trust-region radius &Delta;, and
