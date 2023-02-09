@@ -45,6 +45,7 @@ contain the following information:
 
 
 * the number of (control) discretization intervals N,
+* the ID of the used kernel (in 1,...,10),
 * the regularization parameter &alpha;,
 * the resulting value (running time or objective) for _SLIP_ initialized with the zero vector,
 * the resulting value (running time or objective) for _SLIP_ initialized with the result of _BFGS_ followed by nearest integer rounding,
